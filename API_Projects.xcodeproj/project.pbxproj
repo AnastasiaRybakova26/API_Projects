@@ -7,30 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A035A4092AAEFED4009481DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A4082AAEFED4009481DF /* AppDelegate.swift */; };
-		A035A40B2AAEFED4009481DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A40A2AAEFED4009481DF /* SceneDelegate.swift */; };
-		A035A40D2AAEFED4009481DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A40C2AAEFED4009481DF /* ViewController.swift */; };
-		A035A4102AAEFED4009481DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A035A40E2AAEFED4009481DF /* Main.storyboard */; };
-		A035A4122AAEFED5009481DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A035A4112AAEFED5009481DF /* Assets.xcassets */; };
-		A035A4152AAEFED5009481DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A035A4132AAEFED5009481DF /* LaunchScreen.storyboard */; };
+		A035A4232AAEFEFB009481DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A4222AAEFEFB009481DF /* AppDelegate.swift */; };
+		A035A4252AAEFEFB009481DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A4242AAEFEFB009481DF /* SceneDelegate.swift */; };
+		A035A42A2AAEFEFB009481DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A035A4282AAEFEFB009481DF /* Main.storyboard */; };
+		A035A42C2AAEFEFB009481DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A035A42B2AAEFEFB009481DF /* Assets.xcassets */; };
+		A035A42F2AAEFEFB009481DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A035A42D2AAEFEFB009481DF /* LaunchScreen.storyboard */; };
+		A035A4382AAEFF74009481DF /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A4352AAEFF74009481DF /* WeatherData.swift */; };
+		A035A4392AAEFF74009481DF /* WetherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A4362AAEFF74009481DF /* WetherManager.swift */; };
+		A035A43A2AAEFF74009481DF /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A4372AAEFF74009481DF /* WeatherModel.swift */; };
+		A035A43C2AAEFF84009481DF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A43B2AAEFF84009481DF /* WeatherViewController.swift */; };
+		A035A4402AAEFF9B009481DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A43E2AAEFF9B009481DF /* Constants.swift */; };
+		A035A4412AAEFF9B009481DF /* Extensions + UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A43F2AAEFF9B009481DF /* Extensions + UI.swift */; };
+		A035A44E2AB06B9C009481DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A44D2AB06B9C009481DF /* AppDelegate.swift */; };
+		A035A4502AB06B9C009481DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A44F2AB06B9C009481DF /* SceneDelegate.swift */; };
+		A035A4522AB06B9C009481DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A4512AB06B9C009481DF /* ViewController.swift */; };
+		A035A4572AB06B9D009481DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A035A4562AB06B9D009481DF /* Assets.xcassets */; };
+		A035A45A2AB06B9D009481DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A035A4582AB06B9D009481DF /* LaunchScreen.storyboard */; };
+		A035A4872AB2F0A3009481DF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A035A4862AB2F0A3009481DF /* SnapKit */; };
+		A035A48A2AB2F322009481DF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A035A4892AB2F322009481DF /* SnapKit */; };
+		A035A48C2AB30123009481DF /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A48B2AB30123009481DF /* CoinManager.swift */; };
+		A035A48F2AB306B6009481DF /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A48E2AB306B6009481DF /* CoinData.swift */; };
+		A035A4912AB30970009481DF /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035A4902AB30970009481DF /* String+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A035A4052AAEFED4009481DF /* API_Projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = API_Projects.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A035A4082AAEFED4009481DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A035A40A2AAEFED4009481DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A035A40C2AAEFED4009481DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A035A40F2AAEFED4009481DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A035A4112AAEFED5009481DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A035A4142AAEFED5009481DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A035A4162AAEFED5009481DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A035A4202AAEFEFB009481DF /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A035A4222AAEFEFB009481DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A035A4242AAEFEFB009481DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A035A4292AAEFEFB009481DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A035A42B2AAEFEFB009481DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A035A42E2AAEFEFB009481DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A035A4302AAEFEFB009481DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A035A4352AAEFF74009481DF /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		A035A4362AAEFF74009481DF /* WetherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WetherManager.swift; sourceTree = "<group>"; };
+		A035A4372AAEFF74009481DF /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		A035A43B2AAEFF84009481DF /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		A035A43E2AAEFF9B009481DF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A035A43F2AAEFF9B009481DF /* Extensions + UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions + UI.swift"; sourceTree = "<group>"; };
+		A035A44B2AB06B9C009481DF /* BitCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A035A44D2AB06B9C009481DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A035A44F2AB06B9C009481DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A035A4512AB06B9C009481DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A035A4562AB06B9D009481DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A035A4592AB06B9D009481DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A035A45B2AB06B9D009481DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A035A48B2AB30123009481DF /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		A035A48E2AB306B6009481DF /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		A035A4902AB30970009481DF /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A035A4022AAEFED4009481DF /* Frameworks */ = {
+		A035A41D2AAEFEFB009481DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A035A4872AB2F0A3009481DF /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035A4482AB06B9C009481DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A035A48A2AB2F322009481DF /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,51 +79,137 @@
 		A035A3FC2AAEFED4009481DF = {
 			isa = PBXGroup;
 			children = (
-				A035A4072AAEFED4009481DF /* API_Projects */,
+				A035A4212AAEFEFB009481DF /* Clima */,
+				A035A44C2AB06B9C009481DF /* BitCoin */,
 				A035A4062AAEFED4009481DF /* Products */,
+				A035A4882AB2F322009481DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A035A4062AAEFED4009481DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A035A4052AAEFED4009481DF /* API_Projects.app */,
+				A035A4202AAEFEFB009481DF /* Clima.app */,
+				A035A44B2AB06B9C009481DF /* BitCoin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A035A4072AAEFED4009481DF /* API_Projects */ = {
+		A035A4212AAEFEFB009481DF /* Clima */ = {
 			isa = PBXGroup;
 			children = (
-				A035A4082AAEFED4009481DF /* AppDelegate.swift */,
-				A035A40A2AAEFED4009481DF /* SceneDelegate.swift */,
-				A035A40C2AAEFED4009481DF /* ViewController.swift */,
-				A035A40E2AAEFED4009481DF /* Main.storyboard */,
-				A035A4112AAEFED5009481DF /* Assets.xcassets */,
-				A035A4132AAEFED5009481DF /* LaunchScreen.storyboard */,
-				A035A4162AAEFED5009481DF /* Info.plist */,
+				A035A4222AAEFEFB009481DF /* AppDelegate.swift */,
+				A035A4242AAEFEFB009481DF /* SceneDelegate.swift */,
+				A035A4342AAEFF74009481DF /* Model */,
+				A035A43B2AAEFF84009481DF /* WeatherViewController.swift */,
+				A035A43D2AAEFF9B009481DF /* Helpers */,
+				A035A4282AAEFEFB009481DF /* Main.storyboard */,
+				A035A42B2AAEFEFB009481DF /* Assets.xcassets */,
+				A035A42D2AAEFEFB009481DF /* LaunchScreen.storyboard */,
+				A035A4302AAEFEFB009481DF /* Info.plist */,
 			);
-			path = API_Projects;
+			path = Clima;
+			sourceTree = "<group>";
+		};
+		A035A4342AAEFF74009481DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A035A4352AAEFF74009481DF /* WeatherData.swift */,
+				A035A4372AAEFF74009481DF /* WeatherModel.swift */,
+				A035A4362AAEFF74009481DF /* WetherManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A035A43D2AAEFF9B009481DF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A035A43E2AAEFF9B009481DF /* Constants.swift */,
+				A035A43F2AAEFF9B009481DF /* Extensions + UI.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A035A44C2AB06B9C009481DF /* BitCoin */ = {
+			isa = PBXGroup;
+			children = (
+				A035A44D2AB06B9C009481DF /* AppDelegate.swift */,
+				A035A44F2AB06B9C009481DF /* SceneDelegate.swift */,
+				A035A48D2AB30129009481DF /* Model */,
+				A035A4512AB06B9C009481DF /* ViewController.swift */,
+				A035A4922AB31155009481DF /* Helpers */,
+				A035A4562AB06B9D009481DF /* Assets.xcassets */,
+				A035A4582AB06B9D009481DF /* LaunchScreen.storyboard */,
+				A035A45B2AB06B9D009481DF /* Info.plist */,
+			);
+			path = BitCoin;
+			sourceTree = "<group>";
+		};
+		A035A4882AB2F322009481DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A035A48D2AB30129009481DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A035A48B2AB30123009481DF /* CoinManager.swift */,
+				A035A48E2AB306B6009481DF /* CoinData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A035A4922AB31155009481DF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A035A4902AB30970009481DF /* String+extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A035A4042AAEFED4009481DF /* API_Projects */ = {
+		A035A41F2AAEFEFB009481DF /* Clima */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A035A4192AAEFED5009481DF /* Build configuration list for PBXNativeTarget "API_Projects" */;
+			buildConfigurationList = A035A4312AAEFEFB009481DF /* Build configuration list for PBXNativeTarget "Clima" */;
 			buildPhases = (
-				A035A4012AAEFED4009481DF /* Sources */,
-				A035A4022AAEFED4009481DF /* Frameworks */,
-				A035A4032AAEFED4009481DF /* Resources */,
+				A035A41C2AAEFEFB009481DF /* Sources */,
+				A035A41D2AAEFEFB009481DF /* Frameworks */,
+				A035A41E2AAEFEFB009481DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = API_Projects;
-			productName = API_Projects;
-			productReference = A035A4052AAEFED4009481DF /* API_Projects.app */;
+			name = Clima;
+			packageProductDependencies = (
+				A035A4862AB2F0A3009481DF /* SnapKit */,
+			);
+			productName = Clima;
+			productReference = A035A4202AAEFEFB009481DF /* Clima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A035A44A2AB06B9C009481DF /* BitCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A035A45E2AB06B9D009481DF /* Build configuration list for PBXNativeTarget "BitCoin" */;
+			buildPhases = (
+				A035A4472AB06B9C009481DF /* Sources */,
+				A035A4482AB06B9C009481DF /* Frameworks */,
+				A035A4492AB06B9C009481DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitCoin;
+			packageProductDependencies = (
+				A035A4892AB2F322009481DF /* SnapKit */,
+			);
+			productName = BitCoin;
+			productReference = A035A44B2AB06B9C009481DF /* BitCoin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +222,10 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					A035A4042AAEFED4009481DF = {
+					A035A41F2AAEFEFB009481DF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A035A44A2AB06B9C009481DF = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -111,54 +239,93 @@
 				Base,
 			);
 			mainGroup = A035A3FC2AAEFED4009481DF;
+			packageReferences = (
+				A035A4852AB2F0A3009481DF /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = A035A4062AAEFED4009481DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A035A4042AAEFED4009481DF /* API_Projects */,
+				A035A41F2AAEFEFB009481DF /* Clima */,
+				A035A44A2AB06B9C009481DF /* BitCoin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A035A4032AAEFED4009481DF /* Resources */ = {
+		A035A41E2AAEFEFB009481DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A035A4152AAEFED5009481DF /* LaunchScreen.storyboard in Resources */,
-				A035A4122AAEFED5009481DF /* Assets.xcassets in Resources */,
-				A035A4102AAEFED4009481DF /* Main.storyboard in Resources */,
+				A035A42F2AAEFEFB009481DF /* LaunchScreen.storyboard in Resources */,
+				A035A42C2AAEFEFB009481DF /* Assets.xcassets in Resources */,
+				A035A42A2AAEFEFB009481DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035A4492AB06B9C009481DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A035A45A2AB06B9D009481DF /* LaunchScreen.storyboard in Resources */,
+				A035A4572AB06B9D009481DF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A035A4012AAEFED4009481DF /* Sources */ = {
+		A035A41C2AAEFEFB009481DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A035A40D2AAEFED4009481DF /* ViewController.swift in Sources */,
-				A035A4092AAEFED4009481DF /* AppDelegate.swift in Sources */,
-				A035A40B2AAEFED4009481DF /* SceneDelegate.swift in Sources */,
+				A035A4232AAEFEFB009481DF /* AppDelegate.swift in Sources */,
+				A035A4392AAEFF74009481DF /* WetherManager.swift in Sources */,
+				A035A4382AAEFF74009481DF /* WeatherData.swift in Sources */,
+				A035A43C2AAEFF84009481DF /* WeatherViewController.swift in Sources */,
+				A035A43A2AAEFF74009481DF /* WeatherModel.swift in Sources */,
+				A035A4412AAEFF9B009481DF /* Extensions + UI.swift in Sources */,
+				A035A4252AAEFEFB009481DF /* SceneDelegate.swift in Sources */,
+				A035A4402AAEFF9B009481DF /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035A4472AB06B9C009481DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A035A48C2AB30123009481DF /* CoinManager.swift in Sources */,
+				A035A4522AB06B9C009481DF /* ViewController.swift in Sources */,
+				A035A4912AB30970009481DF /* String+extension.swift in Sources */,
+				A035A48F2AB306B6009481DF /* CoinData.swift in Sources */,
+				A035A44E2AB06B9C009481DF /* AppDelegate.swift in Sources */,
+				A035A4502AB06B9C009481DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A035A40E2AAEFED4009481DF /* Main.storyboard */ = {
+		A035A4282AAEFEFB009481DF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A035A40F2AAEFED4009481DF /* Base */,
+				A035A4292AAEFEFB009481DF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A035A4132AAEFED5009481DF /* LaunchScreen.storyboard */ = {
+		A035A42D2AAEFEFB009481DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A035A4142AAEFED5009481DF /* Base */,
+				A035A42E2AAEFEFB009481DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A035A4582AB06B9D009481DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A035A4592AB06B9D009481DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -280,7 +447,7 @@
 			};
 			name = Release;
 		};
-		A035A41A2AAEFED5009481DF /* Debug */ = {
+		A035A4322AAEFEFB009481DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,7 +456,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J63C59U864;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = API_Projects/Info.plist;
+				INFOPLIST_FILE = Clima/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to get the wether";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AnastasiyaRybakova.API-Projects";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnastasiyaRybakova.Clima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,7 +476,7 @@
 			};
 			name = Debug;
 		};
-		A035A41B2AAEFED5009481DF /* Release */ = {
+		A035A4332AAEFEFB009481DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,7 +485,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J63C59U864;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = API_Projects/Info.plist;
+				INFOPLIST_FILE = Clima/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to get the wether";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +497,61 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AnastasiyaRybakova.API-Projects";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnastasiyaRybakova.Clima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A035A45C2AB06B9D009481DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J63C59U864;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BitCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnastasiyaRybakova.BitCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A035A45D2AB06B9D009481DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J63C59U864;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BitCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnastasiyaRybakova.BitCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,16 +571,49 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A035A4192AAEFED5009481DF /* Build configuration list for PBXNativeTarget "API_Projects" */ = {
+		A035A4312AAEFEFB009481DF /* Build configuration list for PBXNativeTarget "Clima" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A035A41A2AAEFED5009481DF /* Debug */,
-				A035A41B2AAEFED5009481DF /* Release */,
+				A035A4322AAEFEFB009481DF /* Debug */,
+				A035A4332AAEFEFB009481DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A035A45E2AB06B9D009481DF /* Build configuration list for PBXNativeTarget "BitCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A035A45C2AB06B9D009481DF /* Debug */,
+				A035A45D2AB06B9D009481DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A035A4852AB2F0A3009481DF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A035A4862AB2F0A3009481DF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A035A4852AB2F0A3009481DF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A035A4892AB2F322009481DF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A035A4852AB2F0A3009481DF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A035A3FD2AAEFED4009481DF /* Project object */;
 }

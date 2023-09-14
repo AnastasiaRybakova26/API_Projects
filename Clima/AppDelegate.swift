@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  API_Projects
+//  Clima
 //
 //  Created by Анастасия Рыбакова on 11.09.2023.
 //
